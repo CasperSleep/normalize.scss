@@ -1,12 +1,12 @@
 {
-  "name": "normalize.css",
+  "name": "normalize.scss",
   "version": "4.1.1",
-  "description": "A modern alternative to CSS resets",
-  "main": "normalize.css",
-  "style": "normalize.css",
+  "description": "A modern alternative to CSS resets. The Sass version",
+  "main": "_normalize.scss",
+  "style": "_normalize.scss",
   "files": [
     "LICENSE.md",
-    "normalize.css"
+    "_normalize.scss"
   ],
   "devDependencies": {
     "stylelint": "^5.4.0",
@@ -15,13 +15,13 @@
   "scripts": {
     "test": "stylelint normalize.css"
   },
-  "repository": "necolas/normalize.css",
+  "repository": "caspersleep/normalize.scss",
   "contributors": [
     "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com/)",
     "Nicolas Gallagher <nicolas@nicolasgallagher.com> (http://nicolasgallagher.com/)"
   ],
   "license": "MIT",
-  "bugs": "https://github.com/necolas/normalize.css/issues",
+  "bugs": "https://github.com/caspersleep/normalize.scss/issues",
   "homepage": "https://necolas.github.io/normalize.css#readme",
   "stylelint": {
     "extends": "stylelint-config-standard"
